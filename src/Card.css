@@ -1,0 +1,28 @@
+.card {
+  width: 170px;
+  height: 170px;
+  box-sizing: border-box;
+  padding: 24px 12px;
+  text-align: center;
+  background: #000;
+  border: 2px solid;
+  border-image: linear-gradient(to top right, #ff3b00, #1a1aff) 1;
+}
+
+.card-image {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.card-title {
+  margin: 12px 0 8px;
+  font-size: 15px;
+  color: #7b6cff;
+}
+
+.card-description {
+  margin: 0;
+  font-size: 9px;
+  color: #7b6cff;
+}

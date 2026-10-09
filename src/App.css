@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  background: #000;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 40px 0 60px;
+  background: #000;
+}
+
+.heading {
+  text-align: center;
+  color: #7b6cff;
+  margin-bottom: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 170px);
+  justify-content: center;
+  gap: 70px 90px;
+}
